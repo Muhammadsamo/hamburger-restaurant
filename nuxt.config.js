@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  mode: "static",
+  router: {
+    base: "/hamburger-restaurant",
+  },
   modules: [
     // Using Tailwind CSS
     "@nuxtjs/tailwindcss",
